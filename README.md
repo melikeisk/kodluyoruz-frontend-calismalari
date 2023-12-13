@@ -1,2 +1,2 @@
-# kodluyoruz-html-calismalari
-Front-End Eğitimi kapsamında yapmış olduğum html çalışmaları için açılmıştır bu repo.
+# kodluyoruz-frontend-calismalari
+Front-End Eğitimi kapsamında yapmış olduğum html ve css çalışmaları için açılmıştır bu repo.
