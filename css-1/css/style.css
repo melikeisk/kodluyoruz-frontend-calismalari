@@ -1,1 +1,163 @@
+body {
+    margin: 0;
+    display: flex;
+    user-select: none;
+}
 
+/* Ana Sayfa */
+/***Background***/
+
+.bg-1 {
+width:100%;
+height:100vh;
+background-color:rgb(255, 229, 229);
+}
+
+/***Header***/
+
+header {
+    display: flex;
+}
+
+.header-text {
+    text-align: center; 
+    margin-top: 50px;
+    font-size: 14px; 
+    font-family: 'Whisper', sans-serif;
+    color:rgb(52, 77, 103);
+}
+/***Logo***/
+
+.logo {
+    width:70px;
+    height: auto;
+    position: fixed;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo img {
+    display: block; /* Resmi block elementine çeviriyoruz */
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+
+}
+
+/***Navbar***/
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 50px;
+    right: 20px; 
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-family:'Inter', sans-serif; 
+    font-size: 16px;
+    color: rgb(103, 114, 157);
+}
+
+a:hover {
+    background-color: rgb(187, 156, 192);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+/***Content Ana Sayfa***/
+
+#anasayfa {
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+#anasayfa h2 {
+    color:rgb(103, 114, 157);
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#anasayfa p {
+    color:rgb(93, 53, 135);
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+#strong {
+    color:rgb(103, 114, 157); 
+    font-size: 28px; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+#lorem { 
+font-family: 'Whisper', sans-serif;;
+}
+
+/****Corners****/
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.corner {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(216, 180, 248);
+    background: transparent;
+}
+
+.corner.top-left {
+    border-bottom-right-radius: 10px;
+    border-width: 10px 0 0 10px;
+    top: -15px;
+    left: -25px;
+}
+
+.corner.top-right {
+    top: -15px;
+    right: -25px;
+    border-bottom-left-radius: 10px;
+    border-width: 10px 10px 0 0;
+ 
+}
+
+.corner.bottom-left {
+    bottom: -15px;
+    left: -25px;
+    border-top-right-radius: 10px;
+    border-width: 0 0 10px 10px;
+}
+
+.corner.bottom-right {
+    bottom: -15px;
+    right: -25px;
+    border-top-left-radius: 10px;
+    border-width: 0 10px 10px 0;
+}
+
+/***Footer***/
+footer {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+   font-family: 'Inter', sans-serif;
+     text-align:left;
+     padding-left: 5px;
+     color:rgb(103, 114, 157);
+}
