@@ -8,9 +8,9 @@ body {
 /***Background***/
 
 .bg-1 {
-width:100%;
-height:100vh;
-background-color:rgb(255, 229, 229);
+    width:100%;
+    height:100vh;
+    background-color:rgb(255, 229, 229);       
 }
 
 /***Header***/
@@ -105,7 +105,7 @@ a:hover {
 }
 
 #lorem { 
-font-family: 'Whisper', sans-serif;;
+    font-family: 'Whisper', sans-serif;;
 }
 
 /****Corners****/
@@ -156,10 +156,10 @@ footer {
     position: fixed;
     bottom:0;
     width: 100%;
-   font-family: 'Inter', sans-serif;
-     text-align:left;
-     padding-left: 5px;
-     color:rgb(103, 114, 157);
+    font-family: 'Inter', sans-serif;
+    text-align:left;
+    padding-left: 5px;
+    color:rgb(103, 114, 157);
 }
 
 /* Hakkımda */
@@ -171,11 +171,11 @@ footer {
     height: 100vh;
     background-color: rgb(255, 229, 229);
     background-image: url(../images/bg-2.png);
-    background-position: center; 
-   
+    background-position: center;  
 }
 
 /***Section Hakkımda***/
+
 #hakkimda {
     text-align: center;
     position: absolute;
@@ -195,3 +195,61 @@ footer {
     font-family: 'Inter', serif;
     font-size: 60px;
 }
+
+/* Blog */
+/***Background Blog***/
+
+.bg-3{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 229, 229);
+    position: fixed;
+     }
+
+ /***Content Blog***/
+
+ #blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+ }
+
+ article {
+    width: calc(33.33% - 20px);
+    margin: 60px 10px 10px;
+    border: 1px solid #eca2dc;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; 
+    padding: 15px;
+ }
+
+ #blog img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+ }
+
+ #blog h2 {
+    color: maroon;
+    font-family: 'Playfair Display', serif;
+ }
+
+ #blog p {
+    font-family: 'Poppins', sans-serif;
+ }
+
+ button.read-more {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color:rgb(103, 114, 157);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ 
