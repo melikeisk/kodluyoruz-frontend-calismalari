@@ -161,3 +161,37 @@ footer {
      padding-left: 5px;
      color:rgb(103, 114, 157);
 }
+
+/* Hakkımda */
+/***Background***/
+
+.bg-2 {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 229, 229);
+    background-image: url(../images/bg-2.png);
+    background-position: center; 
+   
+}
+
+/***Section Hakkımda***/
+#hakkimda {
+    text-align: center;
+    position: absolute;
+    top: 38% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+#hakkimda h1 {
+    font-size: 36px;
+    color: bisque;
+    font-family: 'Playfair Display', serif;
+}
+
+#hakkimda span {
+    color:  rgb(64, 13, 81);
+    font-family: 'Inter', serif;
+    font-size: 60px;
+}
