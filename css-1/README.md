@@ -31,6 +31,6 @@ Aşağıda tasarımın tarayıcadaki görüntülerine göz atabilirsiniz. Genell
 
 ***iletisim dosyasının tarayıcıdaki görünümü:***
 
-![iletisim-ss](https://github.com/melikeisk/kodluyoruz-frontend-calismalari/assets/86538528/471f7fd9-e584-424d-82ec-edfc9ac26baa)
+![iletisim-ss](https://github.com/melikeisk/kodluyoruz-frontend-calismalari/assets/86538528/f12a2461-16ed-46aa-a6a3-bb9d7998ecfa)
 
 *İletişim kısmında logo sola kaydırıldı, bu şekilde iletişim formunun sayfanın ortasında, direkt odak noktası olması hedeflendi. Formun içeriğinde ana sayfa ve lego ile uyumlu renkler tercih edilerek, genel bir uyum yakalanması hedeflendi.*
